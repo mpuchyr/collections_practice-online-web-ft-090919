@@ -47,3 +47,7 @@ def find_a(array)
   end
   a_words
 end
+
+def sum_array(array)
+  array.inject 
+end
