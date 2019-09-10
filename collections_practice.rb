@@ -28,6 +28,14 @@ def swap_elements(array)
   array
 end
 
+def swap_elements_from_to(array, index, destination_index)
+  element1 = array[index]
+  element2 = array[destination_index]
+  
+  array[index] = element2
+  array[destination_index] = element1
+end
+
 def reverse_array(array)
   array.reverse
 end
