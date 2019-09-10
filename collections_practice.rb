@@ -12,7 +12,7 @@ def sort_array-char_count(array)
       0
     elsif a.length < b.length
       -1
-    else
+    elsif a.length > b.length
       1
     end
   end
