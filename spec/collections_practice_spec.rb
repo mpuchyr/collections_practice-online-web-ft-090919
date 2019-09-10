@@ -30,8 +30,9 @@ describe 'collections practice' do
     end
   end
   
+  #Question 4 Advanced
   describe '#swap_elements_from_to' do
-    it 'swaps the elements of an array from the given index to the destination index'
+    it 'swaps the elements of an array from the given index to the destination index' do
       expect(swap_elements_from_to(["a", "b", "c", "d", "e"], 4, 1)).to eq(["a", "e", "c", "d", "b"])
     end
   end
