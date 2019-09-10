@@ -15,4 +15,5 @@ def sort_array-char_count(array)
     else
       1
     end
+  end
 end
